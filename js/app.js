@@ -1,0 +1,1 @@
+angular.module('roboChat', ['roboChat.controllers', 'roboChat.directives']);

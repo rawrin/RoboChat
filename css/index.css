@@ -1,0 +1,94 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  height: 100%;
+  background: rgba(235, 235, 235, 0.9);
+  min-height: 100%;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  height: 4rem;
+  font-size: 3rem;
+}
+
+.intro {
+  text-align: center;
+}
+
+.chat {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  height: 100%;
+}
+
+.chatView {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  background: rgba(255, 255, 255, 0.9);
+  overflow: auto;
+  height: 100%;
+}
+
+.chatView ul {
+  margin: 0;
+  padding: 1rem;
+}
+
+.chatView li {
+  list-style: none;
+  font-size: 1rem;
+}
+
+.user {
+  font-weight: bold;
+}
+
+.events {
+  color: rgba(2, 132, 130, 1);
+  font-weight: bold;
+}
+
+.input {
+  margin-right: auto;
+  margin-left: auto;
+  width: 65%;
+  padding-top: 5px;
+}
+
+.inputField {
+  width: 100%;
+}
+
+@media screen and (max-width: 50rem) {
+  .header {
+    display: none;
+  }
+  .intro {
+    display: none;
+  }
+  .chat {
+    padding-top: 0;
+  }
+  .chatView {
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+  }
+}
