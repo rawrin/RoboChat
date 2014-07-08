@@ -25,6 +25,10 @@ html, body {
   text-align: center;
 }
 
+.intro span {
+  font-style: italic;
+}
+
 .chat {
   position: fixed;
   top: 0;
