@@ -6,3 +6,5 @@ Uses a scrollGlue directive from: https://github.com/Luegg/angularjs-scroll-glue
 
 
 To start, just open index.html.
+
+To check on mobile or media screens, shrink window.
